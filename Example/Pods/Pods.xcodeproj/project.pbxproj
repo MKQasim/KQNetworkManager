@@ -139,7 +139,7 @@
 		4D6051C9052E12E8D245F9B0A539F35B /* KQNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				CF407BC526D44C05002DEE06 /* Source */,
+				CF407BC826D45536002DEE06 /* Classes */,
 				4E594BA60817CEAFB96286AF123DC74D /* Pod */,
 				53948BE3EB63180F606CD795CF696087 /* Support Files */,
 			);
@@ -215,12 +215,20 @@
 			);
 			sourceTree = "<group>";
 		};
-		CF407BC526D44C05002DEE06 /* Source */ = {
+		CF407BC826D45536002DEE06 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF407BC926D45545002DEE06 /* Utility */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF407BC926D45545002DEE06 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
 				CF407BC626D44C21002DEE06 /* ReplaceMe.swift */,
 			);
-			path = Source;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {

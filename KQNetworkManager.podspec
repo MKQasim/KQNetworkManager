@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KQNetworkManager'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'KQNetworkManager is for network calls.'
 
 # This description is used to generate tags and improve search results.
@@ -33,15 +33,15 @@ Pod::Spec.new do |s|
 # 9
 #spec.resources = "EI_Module_IOS/**/*.{pdf,png,jpeg,jpg,storyboard,xib,xcassets}"
 # s.resource_bundle = { "EI_Module_IOS" => ["EI_Module_IOS/**/*.lproj/*.strings"] }
-  s.source_files = "KQNetworkManager/Source/**/*.{swift}"
+  s.source_files = "KQNetworkManager/Classes/**/*.{swift}"
   # s.resource_bundles = {
   #   'KQNetworkManager' => ['KQNetworkManager/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Alamofire'
+#   s.dependency 'Alamofire'
    
-   s.swift_version = "4.2"
+   s.swift_version = "5.0"
    s.requires_arc = true
 end
