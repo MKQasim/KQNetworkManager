@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KQNetworkManager'
-  s.version          = '0.1.2'
+  s.version          = '0.1.1'
   s.summary          = 'KQNetworkManager is for network calls.'
 
 # This description is used to generate tags and improve search results.
@@ -27,13 +27,13 @@ Pod::Spec.new do |s|
   s.author           = { 'Muhammad Qasim Muhammad Mubeen' => 'kamqasim1@gmail.com' }
   s.source           = { :git => 'https://github.com/MKQasim/KQNetworkManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+#  s.source_files = "KQNetworkManager/Classes/Utility/**/*"
   s.ios.deployment_target = '12.0'
-#  s.source_files = 'KQNetworkManager/Source/**/*'
+  s.source_files = 'Classes/Utility/**/*'
 # 9
 #spec.resources = "EI_Module_IOS/**/*.{pdf,png,jpeg,jpg,storyboard,xib,xcassets}"
 # s.resource_bundle = { "EI_Module_IOS" => ["EI_Module_IOS/**/*.lproj/*.strings"] }
-  s.source_files = "KQNetworkManager/Classes/**/*.{swift}"
+ 
   # s.resource_bundles = {
   #   'KQNetworkManager' => ['KQNetworkManager/Assets/*.png']
   # }
