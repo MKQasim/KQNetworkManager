@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import KQNetworkManager
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let greetingAnswer = Services.doGreatings(greeting: "Aslamoalikum")
+        print(greetingAnswer)
     }
 
     override func didReceiveMemoryWarning() {
