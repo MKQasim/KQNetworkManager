@@ -21,22 +21,27 @@ Pod::Spec.new do |s|
 'KQNetworkManager is for network calls.'
                        DESC
 
-  s.homepage         = 'https://github.com/Muhammad Qasim Muhammad Mubeen/KQNetworkManager'
+  s.homepage         = 'https://github.com/MKQasim/KQNetworkManager.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Muhammad Qasim Muhammad Mubeen' => 'kamqasim1@gmail.com' }
-  s.source           = { :git => 'https://github.com/Muhammad Qasim Muhammad Mubeen/KQNetworkManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MKQasim/KQNetworkManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
-
-  s.source_files = 'KQNetworkManager/Source/**/*'
-  
+#  s.source_files = 'KQNetworkManager/Source/**/*'
+# 9
+#spec.resources = "EI_Module_IOS/**/*.{pdf,png,jpeg,jpg,storyboard,xib,xcassets}"
+# s.resource_bundle = { "EI_Module_IOS" => ["EI_Module_IOS/**/*.lproj/*.strings"] }
+  s.source_files = "KQNetworkManager/Source/**/*.{swift}"
   # s.resource_bundles = {
   #   'KQNetworkManager' => ['KQNetworkManager/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Alamofire',
+   s.dependency 'Alamofire'
+   
+   s.swift_version = "4.2"
+   s.requires_arc = true
 end
