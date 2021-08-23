@@ -1,0 +1,16 @@
+PODS:
+  - KQNetworkManager (0.1.0)
+
+DEPENDENCIES:
+  - KQNetworkManager (from `../`)
+
+EXTERNAL SOURCES:
+  KQNetworkManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KQNetworkManager: 22d3227cbb6d5f4f27447aaa9706dbb64cdd6495
+
+PODFILE CHECKSUM: e218bfeeafe68e8067cf1d4f9cff7bb5cd7499a0
+
+COCOAPODS: 1.10.2
